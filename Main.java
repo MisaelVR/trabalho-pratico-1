@@ -1,31 +1,31 @@
 public class Main {
     public static void main(String[] args) {
-        Pilha historico      = new Pilha();
+        Pilha historico = new Pilha();
         Fila filaAtendimento = new Fila();
 
         try {
-            // --- popula o histórico de solicitações (stack) ---
-            historico.empilhar(new Elemento("REQ001", "Instalação de software", "2024-08-20 10:30"));
-            historico.empilhar(new Elemento("REQ002", "Manutenção preventiva",  "2024-08-20 11:00"));
-            // ... (adicione quantas quiser)
+            // Histórico - Pilha
+            historico.empilhar(new Elemento(1, 101, 20240820.1030f));
+            historico.empilhar(new Elemento(2, 102, 20240820.1100f));
 
-            // --- popula a fila de atendimento (queue) ---
-            filaAtendimento.enfileirar(new Elemento("CLI001", "Maria Silva",    "Dúvida sobre produto"));
-            filaAtendimento.enfileirar(new Elemento("CLI002", "João Souza",     "Reclamação de serviço"));
-            // ... (adicione quantos quiser)
+            // Atendimento - Fila
+            filaAtendimento.enfileirar(new Elemento(1, 201, 0f));
+            filaAtendimento.enfileirar(new Elemento(2, 202, 0f));
 
-            // Demonstração de operações
-            System.out.println("Desempilhando histórico:");
+            // Exibindo Histórico
+            System.out.println("Histórico de Solicitações:");
             while (!historico.estaVazia()) {
-                System.out.println("  " + historico.desempilhar());
+                historico.desempilhar().imprimir();
             }
 
-            System.out.println("\nAtendendo fila de clientes:");
+            // Exibindo Atendimento
+            System.out.println("\nFila de Atendimento:");
             while (!filaAtendimento.estaVazia()) {
-                System.out.println("  " + filaAtendimento.desenfileirar());
+                filaAtendimento.desenfileirar().imprimir();
             }
-        } catch (Exception ex) {
-            System.err.println(ex.getMessage());
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
     }
 }

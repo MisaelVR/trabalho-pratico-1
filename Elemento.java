@@ -1,16 +1,15 @@
 public class Elemento {
-    String id;
-    String info1;
-    String info2;
+    int id;
+    int codigoInfo;
+    float valorInfo;
 
-    public Elemento(String id, String info1, String info2) {
-        this.id    = id;
-        this.info1 = info1;
-        this.info2 = info2;
+    public Elemento(int id, int codigoInfo, float valorInfo) {
+        this.id = id;
+        this.codigoInfo = codigoInfo;
+        this.valorInfo = valorInfo;
     }
 
-    @Override
-    public String toString() {
-        return id + " | " + info1 + " | " + info2;
+    public void imprimir() {
+        System.out.println("ID: " + id + ", Código: " + codigoInfo + ", Valor: " + valorInfo);
     }
 }

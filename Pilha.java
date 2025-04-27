@@ -11,8 +11,8 @@ public class Pilha {
 
     public void empilhar(Elemento e) {
         Node novo = new Node(e);
-        novo.prox  = topo;
-        topo       = novo;
+        novo.prox = topo;
+        topo = novo;
     }
 
     public Elemento desempilhar() throws Exception {
@@ -20,7 +20,7 @@ public class Pilha {
             throw new Exception("Erro: pilha vazia");
         }
         Elemento e = topo.elemento;
-        topo       = topo.prox;
+        topo = topo.prox;
         return e;
     }
 }
