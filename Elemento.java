@@ -1,15 +1,15 @@
 public class Elemento {
-    int id;
-    int codigoInfo;
-    float valorInfo;
+    String id;
+    String descricao;
+    String extra;
 
-    public Elemento(int id, int codigoInfo, float valorInfo) {
-        this.id = id;
-        this.codigoInfo = codigoInfo;
-        this.valorInfo = valorInfo;
+    public Elemento(String id, String descricao, String extra) {
+        this.id        = id;
+        this.descricao = descricao;
+        this.extra     = extra;
     }
 
     public void imprimir() {
-        System.out.println("ID: " + id + ", Código: " + codigoInfo + ", Valor: " + valorInfo);
+        System.out.println(id + " | " + descricao + " | " + extra);
     }
 }

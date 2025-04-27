@@ -4,7 +4,7 @@ public class Fila {
 
     public Fila() {
         frente = null;
-        tras = null;
+        tras   = null;
     }
 
     public boolean estaVazia() {
@@ -15,10 +15,10 @@ public class Fila {
         Node novo = new Node(e);
         if (estaVazia()) {
             frente = novo;
-            tras = novo;
+            tras   = novo;
         } else {
             tras.prox = novo;
-            tras = novo;
+            tras      = novo;
         }
     }
 
@@ -27,7 +27,7 @@ public class Fila {
             throw new Exception("Erro: fila vazia");
         }
         Elemento e = frente.elemento;
-        frente = frente.prox;
+        frente     = frente.prox;
         if (frente == null) {
             tras = null;
         }

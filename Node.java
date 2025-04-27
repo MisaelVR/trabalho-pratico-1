@@ -4,6 +4,6 @@ public class Node {
 
     public Node(Elemento elemento) {
         this.elemento = elemento;
-        this.prox = null;
+        this.prox     = null;
     }
 }
