@@ -13,4 +13,3 @@ public class Elemento {
         System.out.println(id + " | " + descricao + " | " + extra);
     }
 }
-//
