@@ -67,7 +67,7 @@ Main.java          // Classe principal que demonstra o uso da pilha e fila.
 
 1. Clone o repositório (após publicar no GitHub):
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/MisaelVR/trabalho-pratico-1.git
    ```
 2. Abra o projeto em uma IDE de sua preferência.
 3. Compile e execute o arquivo `Main.java`.
