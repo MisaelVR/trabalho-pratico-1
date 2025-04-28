@@ -86,8 +86,8 @@ Main.java          // Classe principal que demonstra o uso da pilha e fila.
 
 # 👨‍💼 Créditos
 
-Projeto desenvolvido por [Nome dos Integrantes do Grupo],  
-Disciplina **Experiência Criativa: Projetando Soluções Computacionais**, Engenharia de Software – PUCPR.
+Projeto desenvolvido por Emmanuel Victorio, Misael Vicente e Otávio Augusto,  
+Disciplina **Resolução de Problemas estruturados em Computação**, Engenharia de Software – PUCPR.
 
 ---
 
@@ -109,8 +109,8 @@ CLI003 | Ana Costa | Solicitação de reembolso
 
 # 📌 Links Importantes
 
-- Repositório GitHub: [coloque aqui o link depois de publicar]
-- Vídeo de explicação no YouTube: [coloque aqui o link depois da gravação]
+- Repositório GitHub: [https://github.com/MisaelVR/trabalho-pratico-1.git]
+- Vídeo de explicação no YouTube: [https://www.youtube.com/watch?v=wLrKN8llhbY]
 
 ---
 
