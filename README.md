@@ -109,8 +109,8 @@ CLI003 | Ana Costa | Solicitação de reembolso
 
 # 📌 Links Importantes
 
-- Repositório GitHub: [https://github.com/MisaelVR/trabalho-pratico-1.git]
-- Vídeo de explicação no YouTube: [https://www.youtube.com/watch?v=wLrKN8llhbY]
+- Repositório GitHub: https://github.com/MisaelVR/trabalho-pratico-1.git
+- Vídeo de explicação no YouTube: https://www.youtube.com/watch?v=wLrKN8llhbY
 
 ---
 
