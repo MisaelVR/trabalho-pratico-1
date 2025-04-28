@@ -111,10 +111,3 @@ CLI003 | Ana Costa | Solicitação de reembolso
 
 - Repositório GitHub: https://github.com/MisaelVR/trabalho-pratico-1.git
 - Vídeo de explicação no YouTube: https://www.youtube.com/watch?v=wLrKN8llhbY
-
----
-
-# ✅ Revisado para Entrega
-
-Este README foi preparado especialmente para atender **todas as exigências** do projeto, focando na simplicidade, clareza e respeito às regras impostas pelo professor.
-
